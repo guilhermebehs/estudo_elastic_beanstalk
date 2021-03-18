@@ -28,6 +28,7 @@ jobs:
         environment_name: Testeguilherme-env
         region: us-west-1
         deployment_package: deploy.zip
+        use_existing_version_if_available: true
         version_label: 1
         
         
