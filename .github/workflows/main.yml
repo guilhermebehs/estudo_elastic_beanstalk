@@ -22,8 +22,8 @@ jobs:
     - name: Deploy to EB
       uses: einaregilsson/beanstalk-deploy@v16
       with:
-        aws_access_key: ${{ secrets.mysecrets.AWS_ACCESS_KEY_ID }}
-        aws_secret_key: ${{ secrets.mysecrets.AWS_SECRET_ACCESS_KEY }}
+        aws_access_key: AKIA43TWLHSFXXQDTCBC
+        aws_secret_key: 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
         application_name: teste-guilherme
         environment_name: Testeguilherme-env
         region: us-west-1
