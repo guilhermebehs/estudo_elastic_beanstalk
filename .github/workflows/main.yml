@@ -10,6 +10,9 @@ jobs:
     steps:
     
     - name: Installing NPM
+      run: env
+    
+    - name: Installing NPM
       run: npm install
       
     - name: Generate deployment package
